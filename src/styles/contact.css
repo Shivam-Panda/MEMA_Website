@@ -1,0 +1,63 @@
+.forms {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+.feedback {
+    background-color: #3572EF;
+    border-radius: 10px;
+    color: white;
+}
+
+.form {
+    background-color: #ACE1AF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.info {
+    background-color: #3ABEF9;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.people {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+}
+
+.om {
+    background-color: #ACE1AF;
+    border-radius: 10px;
+}
+
+.ritesh {
+    background-color: #3572EF;
+    border-radius: 10px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li p {
+    background-color: #3ABEF9;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.submit:hover {
+    background-color: #3ABEF9;
+}
