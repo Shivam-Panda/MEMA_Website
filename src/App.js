@@ -1,25 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect } from 'react';
+import Header from './components/Header';
+import Home from './components/Pages/Home'
+import Contact from './components/Pages/Contact'
+import Kits from './components/Pages/Kits';
+import Workshop from './components/Pages/Workshop';
+import Community from './components/Pages/Community';
+import Trip from './components/Pages/Trip';
 
-function App() {
+const App = () => {
+  const [page, setPages] = useState("HOME");
+  const [element, setElement] = useState(<Home />);
+
+  useEffect(() => {
+    switch(page) {
+      case "HOME":
+        setElement(<Home />);
+        break;
+      case "CONTACT":
+        setElement(<Contact />)
+        break;
+      case "KITS":
+        setElement(<Kits />)
+        break;
+      case "WORKSHOP":
+        setElement(<Workshop />)
+        break;
+      case "TRIPS":
+        setElement(<Trip />)
+        break;
+      case "COMMUNITY":
+        setElement(<Community />)
+        break;
+      default:
+        setElement(<Home />);
+    }
+  }, [page])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header setPage={setPages} />
+      {element}
     </div>
-  );
+  )
 }
 
 export default App;

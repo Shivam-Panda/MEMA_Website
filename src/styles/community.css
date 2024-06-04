@@ -1,0 +1,31 @@
+.Community {
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 10px;
+    margin: 10px;
+}
+
+.problem {
+    background-color: #ACE1af;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.our {
+    background-color: #3572EF;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.about {
+    background-color: #3ABEF9;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
