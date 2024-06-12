@@ -7,15 +7,16 @@
 }
 
 .feedback {
-    background-color: #3572EF;
+    background-color: #ACE1AF;
     border-radius: 10px;
-    color: white;
+    color: black;
 }
 
 .form {
-    background-color: #ACE1AF;
+    background-color: #3572EF;
     padding: 10px;
     border-radius: 10px;
+    color: white;
 }
 
 .info {

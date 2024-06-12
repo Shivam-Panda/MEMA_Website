@@ -22,4 +22,15 @@ button {
 
 button:hover {
     background-color: #ACE1AF;
+    cursor: pointer;
+}
+
+.title {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+}
+
+.logo {
+    cursor: pointer;
 }

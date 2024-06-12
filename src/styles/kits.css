@@ -1,0 +1,62 @@
+.kits {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+.eng_kit {
+    background-color: #3572EF;
+    border-radius: 10px;
+    color: white;
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.med_kit {
+    background-color: #ACE1AF;
+    grid-template-rows: auto auto;
+    border-radius: 10px;
+    display: grid;
+    row-gap: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.kit1_eng {
+    background-color: #A1DD70;
+    border-radius: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+.kit2_eng {
+    background-color: #5AB2ff;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+
+.kit1_med {
+    background-color: #A7E6FF;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+
+.kit2_med {
+    background-color: #3572EF;
+    border-radius: 10px;
+    border-radius: 10px;
+    padding: 10px; 
+    color: white;
+}
+
+.gear_img {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+    margin: 10px;
+}

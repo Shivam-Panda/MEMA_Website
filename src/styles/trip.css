@@ -1,0 +1,35 @@
+.trip {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.eng {
+    background-color: #ACE1AF;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.med {
+    background-color: #3572EF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.t_eng {
+    background-color: #3572EF;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.t_med {
+    background-color: #ACE1AF;
+    padding: 10px;
+    border-radius: 10px;
+}

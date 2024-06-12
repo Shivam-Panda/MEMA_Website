@@ -60,8 +60,8 @@ const Contact = () => {
                         <center>
                             <h1>Ritesh Palla</h1>
                             <ul>
-                                <li><b>Email: </b>ompanda0910@gmail.com</li>
-                                <li><b>Phone:</b> +17327615302</li>
+                                <li><b>Email: </b>pallaritesh@gmail.com</li>
+                                <li><b>Phone:</b> +12485251684</li>
                             </ul>
                         </center>
                     </div>

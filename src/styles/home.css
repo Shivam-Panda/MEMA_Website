@@ -37,3 +37,7 @@
     display: grid;
     grid-template-rows: auto auto auto;
 }
+
+.med_desc_work {
+    color: white;
+}
